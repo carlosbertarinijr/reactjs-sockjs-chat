@@ -1,0 +1,67 @@
+.Container-user-name {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: calc(4px + 2vmin);
+}
+
+.Card-user {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 30px auto;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.Card-user-Content {
+    display: flex;
+    justify-content: start;
+    margin: 10px auto;
+}
+
+.Card-user-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meu-botao {
+    background-color: #4CAF50; /* cor de fundo verde */
+    border: none; /* remove a borda */
+    color: white; /* cor do texto branco */
+    padding: 10px 20px; /* espaço interno do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remove sublinhado do texto */
+    display: inline-block; /* permite definir largura e altura */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margens */
+    cursor: pointer; /* cursor de mão ao passar o mouse */
+    border-radius: 4px; /* bordas arredondadas */
+    width: 100%;
+  }
+  
+  .meu-botao:hover {
+    background-color: #45a049; /* cor de fundo mais escura ao passar o mouse */
+  }
+
+  input[type="text"] {
+    /* Add your desired styles here */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+  }
+  
+  input[type="text"],
+  input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .Form-name {
+    display: flex !important;
+    width: -webkit-fill-available;
+    flex-direction: column;
+  }

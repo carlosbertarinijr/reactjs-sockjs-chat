@@ -1,0 +1,66 @@
+.card-chat {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 13px 9px;
+    box-shadow: 0 2px 4px rgb(8 8 8 / 43%);
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.chat-messages {
+    /* height: 70vh; */
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.messages-container-message {
+
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgb(8 8 8 / 43%);
+    
+    background-color: white;
+    border-radius: 26px;
+    padding: 2%;
+    /* margin: 5%; */
+    /* margin: 4px 20px; */
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    margin: 8px 10px;
+
+    word-break: break-word;
+    max-width: fit-content;
+    
+    text-align: start;
+    
+}
+
+.Messages-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 6%;
+    margin: 6px 0px;
+   
+}
+
+.name-user{
+    color: blue;
+    font-size: bold;
+    font-weight: 500;
+    margin-right: 6px;
+}
+
+.name-user-deffault {
+    color: white;
+    font-size: bold;
+    font-weight: 500;
+
+}
+  
